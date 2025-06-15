@@ -51,5 +51,41 @@ alert(person.name + " is " + person.age);
 
 <button onclick="alert('clicked')">Click me.</button> 
 
-//Problem 8
-//Array Related Question 
+/* Problem 8
+Array Related Question
+1. Alert the number of items in an array, using the correct Array property:
+*/
+
+const cars = ["Volvo", "Jeep", "Mercedes"];
+alert(cars.length);
+//2. Change the first item of Brand to "Ford".
+const Brand = ["Volvo", "Jeep", "Mercedes"]; 
+rand[0] = "Ford";
+
+//problem 9
+//Math Related Problems
+//1. Use the correct Math method to create a random number.
+let randomNumber = Math.floor(Math.random() * 100);
+console.log(randomNumber);
+
+//2. Use the correct Math method to return the largest number of 10 and 20.
+let result = Math.max(10,20);
+console.log(result);
+//3. Use the correct Math method to get the square root of 9.
+let sqt = Math.sqrt(9);
+console.log(sqt);
+
+//problem 10
+//comparison operator related problems
+// 1. Choose the correct comparison operator to alert true, when x is greater than y. 
+ 
+let x = 10;
+let y = 5;
+
+if(x >y){
+    alert("x is greater than y")
+}
+//2. Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
+let age = 16;
+let message = (age < 18) ? "Too young" : "Old enough";
+alert(message);
